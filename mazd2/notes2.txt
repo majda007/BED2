@@ -1,0 +1,4 @@
+- unos u bazu nije radio (if isset ime dugmica)
+- dodan kalendar u view i datum u bazu datumiiiii 
+- autoloader prodano
+komentar je bananan

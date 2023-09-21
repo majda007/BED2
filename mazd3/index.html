@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Mala knjizica recepata</title>
+</head>
+<body>
+  
+    <div class="center">
+        <div>
+        <h1 class="rainbow-text">Dobrodošli u našu malu Knjižicu recepata</h1>
+        <form action="index.php" method="POST">
+            <input class="center-button" type="submit" name="enter" value="ULAZ"/>
+        </form>
+        </div>  
+        </div>
+
+</body>
+</html>
+
+<style>
+    html { 
+        background: url("./back.png") no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+    .banner {
+        background-image: url("./back.png");
+        background-position:center;
+    }
+    .center {
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 10px;
+    }
+    .center-button {
+        position: absolute;
+        top: 150%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 10px;
+        width: 200px;
+        height: 100px;
+    }
+    .rainbow-text {
+        background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+        -webkit-background-clip: text;
+        color: transparent;
+    }
+
+</style>
